@@ -8,7 +8,9 @@ Pathgather integrates with a large number of the most popular enterprise learnin
 By tracking these events for all users and all resources, Pathgather can analyze user behavior to determine which resources are the most popular, and create personalized recommendations for users that leverage both their activity as well as the activity of their co-workers.
 
 ## Challenge
-Your challenge is to use a sample of this event data to build a simple "recommender" algorithm that suggests learning resources for a given user. We don't expect this to be an incredibly sophisticated system and will not focus much on the "quality" of the recommendations themselves - we're much more interested in how you tackle the problem, test your solution, and design your system to be incrementally improved over time.
+**Your challenge is to process a sample dataset of Pathgather "events" and build a simple "recommender" algorithm that suggests a few learning resources given a specific user ID.**
+
+We don't expect this to be an incredibly sophisticated system and will not focus much on the "quality" of the recommendations themselves - we're much more interested in how you tackle the problem, test your solution, and design your system to be incrementally improved over time.
 
 Use whatever language and tools you prefer to tackle these requirements:
 1. Download the sample dataset from http://pathgather-storage.s3.amazonaws.com/data-challenge/Pathgather_Team_Learning_Events_Aug_26_2017.csv.tar.gz
