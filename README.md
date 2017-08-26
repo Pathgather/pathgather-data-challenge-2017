@@ -13,7 +13,10 @@ Your challenge is to use a sample of this event data to build a simple "recommen
 Use whatever language and tools you prefer to tackle these requirements:
 1. Download the sample dataset from http://pathgather-storage.s3.amazonaws.com/data-challenge/Pathgather_Team_Learning_Events_Aug_26_2017.csv.tar.gz
 2. Import of the dataset and process it as needed
-3. Build a basic recommendation algorithm that, given a `user_id`, returns an array of `target_id`s that represent the recommended resources, ordered by relevance
+3. Build a basic recommendation algorithm that:
+*  Takes a `user_id` as input
+*  Returns an array of `target_id`s that represent the recommended resources
+*  The array of recommendations should be sorted by relevance
 
 These are meant to be flexible, so use your best judgment to design a solution that'll work in the time alloted. Specifically, it's worth mentioning a few "anti"-requirements:
 1. No specific requirement for the number of recommendations returned (1, 2, 100...)
