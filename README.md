@@ -13,12 +13,11 @@ By tracking these events for all users and all resources, Pathgather can analyze
 We don't expect this to be an incredibly sophisticated system and will not focus much on the "quality" of the recommendations themselves - we're much more interested in how you tackle the problem, test your solution, and design your system to be incrementally improved over time.
 
 Use whatever language and tools you prefer to tackle these requirements:
-1. Download the sample dataset from http://pathgather-storage.s3.amazonaws.com/data-challenge/Pathgather_Team_Learning_Events_Aug_26_2017.csv.tar.gz
-2. Import of the dataset and process it as needed
-3. Build a basic recommendation algorithm that:
-  * Takes a `user_id` as input
-  * Returns an array of `target_id`s that represent the recommended resources
-  * The array of recommendations should be sorted by relevance
+1. Import the sample dataset and process it as needed (also hosted here: http://pathgather-storage.s3.amazonaws.com/data-challenge/Pathgather_Team_Learning_Events_Aug_26_2017.csv.tar.gz)
+2. Build a basic recommendation algorithm that:
+  1. Takes a `user_id` as input
+  2. Returns an array of `target_id`s that represent the recommended resources
+  3. The array of recommendations should be sorted by relevance
 
 These are meant to be flexible, so use your best judgment to design a solution that'll work in the time alloted. Specifically, it's worth mentioning a few "anti"-requirements:
 1. No specific requirement for the number of recommendations returned (1, 2, 100...)
@@ -34,12 +33,18 @@ get_recommendations "2b79dd35-cd95-421e-a3c0-52bd0e9d2396"
 # => [ "3890624d-69bc-4f8c-9016-d8d28edfe126", "eabec1e7-b0c0-4739-a64d-8c1bb5f82c7b", "c23db441-1be7-4772-8faa-9392741bf95a" ]
 ```
 
-## Expectations
+### Submitting Your Code
+When you're finished, you can either email us a zip file or link us to a (private) repository with your forked submission. Although this repo is (currently) public, we'd like you to keep your personal code private - at least for a few months, so that other candidates don't end up copying from (or being intimidated by!) your solution. We're not overly concerned about this, though, so you can use a public Github fork too, as long as you can take it offline once we've reviewed it together.
+
+### Expectations
 We don't expect you to finish this challenge; set a timelimit for whatever time you can spare (no longer than three hours, please) and tackle the problem like you would for building a proof-of-concept solution, so we're *definitely* not expecting production-quality code. However, we'll have you walk us through your solution on use our debrief call to discuss how you'd take this to the next stage, so we do expect to be able to understand what you've done! In other words, we definitely prefer *code quality* over *code quantity*.
 
-TL;DR:
-* Write good, clean code, but not production quality! We'll have you walk through the code in your debrief call
+### TL;DR
+* Build a (simple) recommendation system that suggests a few learning resources for a given user
 * Use whatever language and tools you prefer
+* Use the sample CSV dataset
+* Submit your code as a ZIP file or a private repo; something we can review together
+* Write good, clean code, but not production quality! We'll have you walk through the code in your debrief call
 * Spend no more than 3 hours on this challenge - we know your time is valuable!
 * We don't care (much) about the quality of the recommendations, so don't over-complicate your model
 * Use the Internet! It's not cheating to Google stuff (but do cite your sources for any code you directly copy)
