@@ -44,7 +44,7 @@ TL;DR:
 * Assume requirements will change over time and we'll want to improve the model later :)
 
 ## Dataset
-You can download the dataset here: ![Pathgather_Team_Learning_Events_Aug_26_2017.csv]()
+You can download the dataset here: ![Pathgather_Team_Learning_Events_Aug_26_2017.csv](http://pathgather-storage.s3.amazonaws.com/data-challenge/Pathgather_Team_Learning_Events_Aug_26_2017.csv.tar.gz)
 
 The dataset is a CSV file, pulled from a small instance of Pathgather used internally by our team so
 there is only ~35,000 events. Each event is a single row from our data warehouse, and is structured
