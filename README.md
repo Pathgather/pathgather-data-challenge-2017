@@ -60,6 +60,7 @@ event_type|type of event (e.g. 'view_learnable')
 target_table|specific target resource type (e.g. 'paths' or 'public_content')
 target_id|UUID of the target resource
 
+### Example Data
 created_at|user_id|event_type|target_table|target_id
 -|-|-|-|-
 2017-08-26T14:01:13.231Z|bc45fe62-8064-4965-9e6b-b975cab1a08c|view_learnable|paths|31ae894c-f13a-48eb-ad33-cdd7f539b555
@@ -73,7 +74,7 @@ created_at|user_id|event_type|target_table|target_id
 2017-08-25T19:45:19.851Z|3252c387-4faf-4d22-af66-de7baa27c253|view_learnable|company_content|2b311e7f-6e0c-4f7a-ab70-72a5a54392aa
 2017-08-25T19:33:52.379Z|3252c387-4faf-4d22-af66-de7baa27c253|view_learnable|paths|c64e8fad-3b19-41a5-b1f5-43d50ce28368
 
-## Event Types
+### Event Types
 event_type | description
 -|-
 view_learnable | user views the detail page for a specific resource
